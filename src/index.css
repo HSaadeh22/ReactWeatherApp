@@ -1,0 +1,98 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-width: 320px;
+  font-size: 15px;
+
+  font-family: omnium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+  margin: 0;
+  overflow: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+  min-height: 750px;
+  background-image: url('./images/foot-hils.jpg');
+}
+
+.home-grid {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+  grid-template-areas:
+    'search'
+    'title'
+    'high_low'
+    'desc'
+    '.';
+  color: white;
+  height: 80%;
+  width: 90%;
+  padding-left: 5%;
+  row-gap: 5%;
+}
+
+.search-wrapper {
+  grid-area: search;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 0.8em; */
+  margin-top: 50px;
+}
+
+.search-wrapper input {
+  border-radius: 25px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-style: hidden;
+  height: 100%;
+  color: white;
+  font-size: 1.2em;
+}
+
+.title-wrapper {
+  grid-area: title;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  font-size: 1.7em;
+}
+
+.high-low-wrapper {
+  grid-area: high_low;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.desc-wrapper {
+  grid-area: desc;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.0em;
+  margin-bottom: 50px;
+}
