@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactweatherapp/static/css/main.2c642452.css",
+    "main.js": "/reactweatherapp/static/js/main.2d77a655.js",
+    "static/media/foot-hils.jpg": "/reactweatherapp/static/media/foot-hils.44882ca1862c2372ffad.jpg",
+    "index.html": "/reactweatherapp/index.html",
+    "main.2c642452.css.map": "/reactweatherapp/static/css/main.2c642452.css.map",
+    "main.2d77a655.js.map": "/reactweatherapp/static/js/main.2d77a655.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c642452.css",
+    "static/js/main.2d77a655.js"
+  ]
+}
