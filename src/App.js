@@ -7,7 +7,7 @@ const App = () => {
     // initialized states and placeholder values
     const [location, setLocation] = useState('');
     const [locationName, setLocationName] = useState('Chicago');
-    const [weatherCurrent, setWeatherCurrent] = useState('79°F');
+    const [weatherCurrent, setWeatherCurrent] = useState('76°F');
     const [weatherType, setWeatherType] = useState('Clear');
     const [weatherHigh, setWeatherHigh] = useState('81°F');
     const [weatherLow, setWeatherLow] = useState('75°F');
